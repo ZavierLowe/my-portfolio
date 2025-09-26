@@ -1,0 +1,26 @@
+import React from 'react'
+import Image from 'next/image'
+import Projects from '../ProjectDetails'
+
+const ProjectCard = ({imgSrc,name,year}:any) => {
+
+
+  return (
+
+    <div className='w-full sm:w-1/2 lg:w-full'>
+         <div  className="p-4 bg-white border border-[#F4F4F4] rounded-lg shadow-md hover:shadow-lg transition cursor-pointer ">
+    <Image className='rounded-md' src={imgSrc} width={1800} height={600} alt="" />
+ 
+
+</div>
+<div className='flex justify-between mt-4 items-center '>
+    <h2 className='text-sm'>{name}</h2>
+    <p className='text-sm'>{year}</p>
+</div>
+
+ </div>
+
+  )
+}
+
+export default ProjectCard
