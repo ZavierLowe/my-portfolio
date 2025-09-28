@@ -31,14 +31,14 @@ export default function Home() {
            
                <div className="max-w-7xl mx-auto  md:pt-30">
                  <div className="pl-2 pr-2">
-                   <div className="flex flex-col justify-center  gap-4 pr-0 md:px-10">
+                   <div className="flex flex-col justify-center   pr-0 md:px-10">
      
-                     <p className="text-xs font-semibold uppercase text-[#C2C8D6] md:ml-2 mt-16">want to learn more </p>
+                     <p className="text-xs font-semibold uppercase text-[#C2C8D6] ml-1 md:ml-2 mt-16">want to learn more </p>
      
-                     <h2 className="text-2xl font-bold  uppercase mt-2 md:text-5xl">Contact Me</h2>
+                     <h2 className="text-3xl font-bold  uppercase mt-2 md:text-5xl">Contact Me</h2>
                      
-                     <div className="relative mt-2 md:mt-16">
-                       <div className="p-4 md:p-6 md:mt-7 bg-white border border-[#C2C8D6]/50 rounded-[20px]  md:rounded-[28px] shadow-md hover:shadow-lg transition cursor-pointer">
+                     <div className="relative  md:mt-16">
+                       <div className="p-4 mt-7 md:p-6 md:mt-7 bg-white border border-[#C2C8D6]/50 rounded-[20px]  md:rounded-[28px] shadow-md hover:shadow-lg transition cursor-pointer">
      
                          <div className="flex flex-col gap-2 md:flex">
                           <div className=" flex flex-col  gap-8">
