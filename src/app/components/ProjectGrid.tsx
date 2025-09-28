@@ -19,7 +19,7 @@ const ProjectGrid = () => {
                 <h2 className="font-bold text-5xl uppercase my-4">Work Samples</h2>
                 
                 <div className="relative mt-16 md:mt-0">
-                  <div className=" mt-16 grid grid-cols-2 gap-x-10 gap-y-10">
+                  <div className=" mt-16 grid grid-cols-1 gap-x-10 gap-y-10 md:grid md:grid-cols-2">
                           <ProjectCard  name={Projects[0].name} imgSrc={Projects[0].imgSrc} year={2023}/>
                           <ProjectCard  name={Projects[1].name} imgSrc={Projects[1].imgSrc} year={2025}/>
                            <ProjectCard  name={Projects[1].name} imgSrc={Projects[1].imgSrc} year={2025}/>

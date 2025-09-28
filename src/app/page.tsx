@@ -33,27 +33,48 @@ export default function Home() {
                  <div className="pl-2 pr-2">
                    <div className="flex flex-col justify-center  gap-4 pr-0 md:px-10">
      
-                     <p className="text-xs font-semibold uppercase text-[#C2C8D6] ml-2 mt-16">want to learn more </p>
+                     <p className="text-xs font-semibold uppercase text-[#C2C8D6] md:ml-2 mt-16">want to learn more </p>
      
-                     <h2 className="font-bold text-5xl uppercase mt-2">Contact Me</h2>
+                     <h2 className="text-2xl font-bold  uppercase mt-2 md:text-5xl">Contact Me</h2>
                      
-                     <div className="relative mt-16 md:mt-0">
-                       <div className="p-6 mt-7 bg-white border border-[#C2C8D6]/50 rounded-[28px] shadow-md hover:shadow-lg transition cursor-pointer">
+                     <div className="relative mt-2 md:mt-16">
+                       <div className="p-4 md:p-6 md:mt-7 bg-white border border-[#C2C8D6]/50 rounded-[20px]  md:rounded-[28px] shadow-md hover:shadow-lg transition cursor-pointer">
      
-                         <div className="flex gap-8">
-                          <div className=" flex flex-col p-6 gap-5">
-                              <h3 className="uppercase font-bold max-w-xs">Curious on what I could do for your company? </h3>
-                          <p className="max-w-xs">Just shoot me an email and I’ll answer your questions promptly.
+                         <div className="flex flex-col gap-2 md:flex">
+                          <div className=" flex flex-col  gap-8">
+                              <h3 className="uppercase font-bold text-2xl max-w-xs">Curious on what I could do for your company? </h3>
+                          <p className="max-w-xs text-lg">Just shoot me an email and I’ll answer your questions promptly.
                               Hope to hear from you soon!</p>
 
-                              <div className="bg-[#772BE2] p-3 text-center rounded-sm max-w-sm">
-                                <p className="uppercase font-bold text-[#FFFBED] text-xl tracking-wide">zavier.lowe@gmail.com</p>
+                              <div className="bg-[#772BE2] w-full p-3 text-center rounded-sm md:max-w-sm">
+                                <p className="text-sm uppercase font-bold text-[#FFFBED] md:text-xl tracking-wide">zavier.lowe@gmail.com</p>
                               </div>
 
                           </div>
                         
      
-                          <div className="flex flex-col max-w-lg items-start space-y-4">
+                          <div className=" mt-4 grid grid-cols-2 gap-y-5 gap-x-3 md:grid md:grid-cols-2 ">
+
+                            <div className="flex justify-center bg-white  h-[82px] p-4 border border-[#E9E9E9]/50   rounded-lg shadow-sm  md:rounded-3xl">
+                              <Image alt="linkedin-logo" src={"images/linkedin-logo.svg" } width={24} height={42} />
+                              
+                            </div>
+                               <div className="flex justify-center bg-white  h-[82px] p-4 border border-[#E9E9E9]/50 rounded-lg shadow-sm  md:rounded-3xl">
+                              <Image alt="linkedin-logo" src={"images/github-logo.svg" } width={36} height={36} />
+                              
+                            </div>
+                               <div className="flex justify-center bg-white h-[82px] p-4 border border-[#E9E9E9]/50   rounded-lg shadow-sm  md:rounded-3xl">
+                              <Image alt="linkedin-logo" src={"images/pdf-icon.svg" } width={36} height={42} />
+                              
+                            </div>
+
+                               <div className="flex justify-center bg-white h-[82px] p-4 border border-[#E9E9E9]/50   rounded-lg shadow-sm  md:rounded-3xl">
+                              <Image alt="linkedin-logo" src={"images/pdf-icon.svg" } width={36} height={42} />
+                              
+                            </div>
+                         
+                            
+                      
      
                           
                           </div>
