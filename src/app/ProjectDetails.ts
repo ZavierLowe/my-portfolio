@@ -1,15 +1,15 @@
 const Projects =[
     {
     id:1,
-    name:'DXC Productions',
-    year:2023,
-    imgSrc:'/images/dxc-prodcutions-home.png'
+    name:'Snif Co Promotional',
+    year:2025,
+    imgSrc:'/images/snif-mockup.jpg'
     },
     {
     id:2,
-    name:'Placeholder1',
+    name:'Sorella ',
     year:2025,
-    imgSrc:'/images/dxc-prodcutions-home.png'
+    imgSrc:'/images/sorella-mockup.jpg'
     },
     {
     id:3,

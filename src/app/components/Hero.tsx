@@ -4,13 +4,13 @@ import Image from 'next/image'
 const Hero = () => {
   return (
   <>
-  <section className="  ">
-    <div id='divLineWrapper' className='px-5 lg:px-[160px] '>
+  <section className="   ">
+    <div id='divLineWrapper' className='px-5 max-w-fill  lg:px-[140px] '>
 
-    <div className=' border-l border-[#C2C8D6]/50 border-r pb-24'>
+    <div className=' mx-auto max-w-7xl border-l border-[#C2C8D6]/50 border-r pb-56'>
 
-    <div className="max-w-4xl mx-auto  md:pt-30">
-      <div className="pl-4 pr-4">
+    <div className="max-w-6xl mx-auto  md:pt-30">
+      <div className="pl-2 pr-2">
         <div className="flex flex-col justify-center items-center gap-4 pr-0 md:px-10">
           {/* <img src={} alt="logo" width="80" /> */}
           <div className="relative mt-16 md:mt-0">
