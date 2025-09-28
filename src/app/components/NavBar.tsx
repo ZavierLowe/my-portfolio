@@ -30,7 +30,7 @@ export default function ResponsiveNav() {
       </nav>
 
       {/* Top nav for tablet/desktop */}
-      <nav className="hidden md:flex fixed top-0 w-5xl mt-2 bg-white p-1 rounded-2xl    shadow-md justify-center z-50">
+      <nav className="hidden md:flex fixed top-0 w-full  bg-white  shadow-md justify-center z-50">
         <ul className="flex space-x-8 p-4">
           {navItems.map((item) => (
             <li key={item.href}>
