@@ -2,12 +2,14 @@ import React from 'react'
 import Image from 'next/image'
 import Projects from '../ProjectDetails'
 
-const ProjectCard = ({imgSrc,name,year}:any) => {
+const ProjectCard = ({imgSrc,name,year,link}:any) => {
 
 
   return (
 
     <div className='w-full sm:w-1/2 lg:w-full'>
+      <a href={link} target='_blank'>
+
          <div  className="p-4 bg-white border border-[#F4F4F4] rounded-lg shadow-md hover:shadow-lg transition cursor-pointer ">
     <Image className='rounded-md' src={imgSrc} width={1800} height={600} alt="" />
  
@@ -17,6 +19,7 @@ const ProjectCard = ({imgSrc,name,year}:any) => {
     <h2 className='text-sm'>{name}</h2>
     <p className='text-sm'>{year}</p>
 </div>
+      </a>
 
  </div>
 
