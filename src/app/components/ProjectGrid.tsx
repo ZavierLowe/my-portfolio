@@ -14,7 +14,7 @@ const ProjectGrid = () => {
             <div className="pl-2 pr-2">
               <div className="flex flex-col justify-center items-center  pr-0 md:px-10">
 
-                <p className="text-xs font-semibold uppercase text-[#C2C8D6] mt-12 md:mt-24">emails and wev development</p>
+                <p className="text-xs font-semibold uppercase text-[#C2C8D6] mt-12 md:mt-24">emails and web development</p>
 
                 <h2 className=" text-2xl mt-2 font-bold md:text-5xl uppercase ">Work Samples</h2>
                 
