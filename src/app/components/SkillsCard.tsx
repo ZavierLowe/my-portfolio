@@ -1,7 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 
-const SkillsCard = ({title,description}:any) => {
+type SkillsCardProps = {
+  title: string ;
+  description: string;
+  
+};
+
+const SkillsCard = ({title,description}:SkillsCardProps) => {
   return (
      <div className='w-full sm:w-1/2 lg:w-full'>
              <div  className="p-4 bg-white border border-[#E9E9E9]/90 rounded-[28px] shadow-md  hover:shadow-lg transition cursor-pointer ">

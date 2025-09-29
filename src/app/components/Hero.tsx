@@ -7,9 +7,9 @@ const Hero = () => {
   <section className="   ">
     <div id='divLineWrapper' className='px-5 max-w-fill  lg:px-[140px] '>
 
-    <div className=' mx-auto max-w-7xl border-l border-[#C2C8D6]/50 border-r pb-56'>
+    <div className=' mx-auto max-w-7xl  border-l border-[#C2C8D6]/50 border-r pb-56'>
 
-    <div className="max-w-6xl mx-auto  md:pt-30">
+    <div className="max-w-6xl mx-auto  md:pt-50">
       <div className="pl-2 pr-2">
         <div className="flex flex-col justify-center items-center gap-4 pr-0 md:px-10">
           {/* <img src={} alt="logo" width="80" /> */}
@@ -40,7 +40,18 @@ const Hero = () => {
            <div className="flex justify-center mt-8">
             <div className=" relative items-center align-middle">
   
-   <a  className=" text-black text-md font-normal flex items-center py-3 px-8 bg-white border-1 border-[#EDEDED] rounded-lg shadow-xs cursor-pointer ">See My Work</a>
+   {/* <a href='#projects'  className="  bg-gradient-to-r from-[#772BE2] to-[#e74fb4] p-1 text-white inset-shadow-sm inset-shadow-[#ACADAF]/18 text-md font-bold flex items-center py-3 px-10 bg-[#772BE2] border-1 border-[#EDEDED] rounded-[28px]  cursor-pointer ">See My Work</a> */}
+
+   <a href="#projects">
+
+   <div className="mx-2 rounded-[28px] inset-shadow-sm inset-shadow-[#ACADAF]/18 bg-gradient-to-r from-[#772BE2]/98 to-[#772BE2]/96 p-1 shadow-md">
+   
+ <div className="rounded-[28px] text-center text-white font-semibold text-base bg-[#772BE2] py-3 px-11">
+  <p >See My Work</p>
+ </div>
+</div>
+   </a>
+
    
 </div>
             

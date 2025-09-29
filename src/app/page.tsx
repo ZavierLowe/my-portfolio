@@ -1,7 +1,6 @@
-import Image from "next/image";
-import ProjectCard from "./components/ProjectCard";
+
 import NavBar from "./components/NavBar"
-import Projects from "./ProjectDetails";
+
 import Hero from "./components/Hero";
 import ProjectGrid from "./components/ProjectGrid";
 import AboutMe from "./components/AboutMe";

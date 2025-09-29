@@ -31,7 +31,16 @@ export default function ResponsiveNav() {
       </nav>
 
       {/* Top nav for tablet/desktop */}
-      <nav className="hidden md:flex fixed top-0 w-full  bg-white  shadow-md justify-center z-50">
+      <nav className="hidden md:flex fixed top-0 w-full backdrop-blur-sm   bg-white/98   shadow-md  px-4  lg:px-[140px]  z-50">
+      <div className=''>
+
+      </div>
+        <div id='wrapper' className=' w-full border-l border-[#C2C8D6]/50 border-r   '>
+        <div className='flex justify-between items-center px-4 py-4'>
+
+        <div className=' '>
+          <h5 className='text-xl font-semibold'>Zavier Lowe</h5>
+        </div>
         <ul className="flex space-x-8 p-4">
           {navItems.map((item) => (
             <li key={item.href}>
@@ -46,6 +55,9 @@ export default function ResponsiveNav() {
             </li>
           ))}
         </ul>
+        </div>
+        </div>
+
       </nav>
     </>
   );

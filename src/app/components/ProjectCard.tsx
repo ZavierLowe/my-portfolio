@@ -1,8 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
-import Projects from '../ProjectDetails'
 
-const ProjectCard = ({imgSrc,name,year,link}:any) => {
+
+type ProjectCardProps = {
+  imgSrc: string ;
+  name: string;
+  year: number;
+  link: string;
+};
+
+const ProjectCard = ({ imgSrc, name, year, link }: ProjectCardProps) => {
 
 
   return (
