@@ -34,24 +34,40 @@ const ContactMe = () => {
      
                           <div className=" mt-4 grid grid-cols-2 gap-y-5 gap-x-3 md:grid md:grid-cols-2 ">
 
+                             <a href="https://www.linkedin.com/in/zavierlowe/" target='_blank'>
+
                             <div className="flex justify-center bg-white  h-[82px] p-4 border border-[#E9E9E9]/50   rounded-lg shadow-sm  md:rounded-3xl md:w-full md:h-[120px] xl:w-[244px]">
+                           
                               <Image alt="linkedin-logo" src={"images/linkedin-logo.svg" } width={32} height={42} />
                               
                             </div>
+                            </a>
+                            
+                            <a href="https://github.com/ZavierLowe" target='_blank'>
+
                                <div className="flex justify-center bg-white  h-[82px] p-4 border border-[#E9E9E9]/50 rounded-lg shadow-sm  md:rounded-3xl md:w-full md:h-[120px] xl:w-[244px]">
                               <Image alt="github-logo" src={"images/github-logo.svg" } width={32} height={36} />
                               
                             </div>
+
+
+                            </a>
+                            <a href="#" target='_blank'>
+
                                <div className="flex justify-center bg-white h-[82px] p-4 border border-[#E9E9E9]/50   rounded-lg shadow-sm  md:rounded-3xl md:w-full md:h-[120px] xl:w-[244px]">
                               <Image alt="pdf-logo" src={"images/pdf-icon.svg" } width={32} height={42} />
                               
                               </div>
+                            </a>
+                            <a href="https://x.com/zavlowe" target='_blank'>
+
 
                                <div className="flex justify-center bg-white h-[82px] p-4 border border-[#E9E9E9]/50   rounded-lg shadow-sm  md:rounded-3xl md:w-full md:h-[120px] xl:w-[244px]">
                               <Image alt="x-logo" src={"images/x-logo.svg" } width={32} height={42} />
                               
                             </div>
                          
+                            </a>
                             
                       
      
