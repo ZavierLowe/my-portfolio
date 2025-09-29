@@ -5,11 +5,11 @@ import Image from 'next/image'
 type ProjectCardProps = {
   imgSrc: string ;
   name: string;
-  year: number;
+  projectType: string;
   link: string;
 };
 
-const ProjectCard = ({ imgSrc, name, year, link }: ProjectCardProps) => {
+const ProjectCard = ({ imgSrc, name, projectType, link }: ProjectCardProps) => {
 
 
   return (
@@ -23,8 +23,8 @@ const ProjectCard = ({ imgSrc, name, year, link }: ProjectCardProps) => {
 
 </div>
 <div className='flex justify-between mt-4 items-center '>
-    <h2 className='text-sm'>{name}</h2>
-    <p className='text-sm'>{year}</p>
+    <h2 className='text-xl font-semibold'>{name}</h2>
+    <p className='text-sm'>{projectType}</p>
 </div>
       </a>
 

@@ -16,7 +16,7 @@ const SkillsCard = ({title,description,imageSrc}:SkillsCardProps) => {
 
              <div className='h-[200px]    md:h-[250px] lg:h-[400px] xl:h-[270px]'>
 
-        <Image className=' rounded-[24px] border border-[#E9E9E9]/80   object-fill h-[200px] md:h-[250px] md:w-[450px] lg:h-[400px] lg:w-full lg:object-cover  xl:h-full ' src={imageSrc} width={600} height={600} alt="" />
+        <Image className=' rounded-[24px] border border-[#E9E9E9]/80 lg:rounded-[32px] object-cover h-[200px] md:h-[250px] md:w-[450px] lg:h-[400px] lg:w-full lg:object-cover  xl:h-full ' src={imageSrc} width={600} height={600} alt="" />
              </div>
      
     

@@ -20,10 +20,10 @@ const ProjectGrid = () => {
                 
                 <div className="relative mt-7 md:mt-0">
                   <div className=" mt-4 md:mt-16 grid grid-cols-1 gap-x-10 gap-y-10 md:grid md:grid-cols-2">
-                          <ProjectCard link={"https://snifco-promotional.netlify.app/"}   name={Projects[0].name} imgSrc={Projects[0].imgSrc} year={2025}/>
-                          <ProjectCard link={"https://sorella-email.netlify.app/"}  name={Projects[1].name} imgSrc={Projects[1].imgSrc} year={2025}/>
-                           <ProjectCard link={"https://macys-transactional-email.netlify.app/"}  name={Projects[2].name} imgSrc={Projects[2].imgSrc} year={2025}/>
-                            <ProjectCard link={"https://www.thedxcproductions.com/"}  name={Projects[3].name} imgSrc={Projects[3].imgSrc} year={2025}/>
+                          <ProjectCard link={"https://snifco-promotional.netlify.app/"}   name={Projects[0].name} imgSrc={Projects[0].imgSrc} projectType={Projects[0].projectType}/>
+                          <ProjectCard link={"https://sorella-email.netlify.app/"}  name={Projects[1].name} imgSrc={Projects[1].imgSrc} projectType={Projects[1].projectType}/>
+                           <ProjectCard link={"https://macys-transactional-email.netlify.app/"}  name={Projects[2].name} imgSrc={Projects[2].imgSrc} projectType={Projects[2].projectType}/>
+                            <ProjectCard link={"https://www.thedxcproductions.com/"}  name={Projects[3].name} imgSrc={Projects[3].imgSrc} projectType={Projects[3].projectType}/>
 
                   </div>
                 
