@@ -16,7 +16,11 @@ export default function ResponsiveNav() {
   return (
     <>
       {/* Bottom nav for mobile */}
-      <nav className="fixed bottom-0 left-0 w-full p-4 rounded-2xl bg-white border- shadow-md flex justify-around border-[#F4F4F4]  md:hidden">
+      <nav className="fixed bottom-0 left-0 w-full px-5 bg-white/98  backdrop-blur-md  shadow-xs flex justify-around   md:hidden">
+
+      <div id='wrapper' className=' w-full border-l border-[#C2C8D6]/50 border-r '>
+      <div className='flex justify-between items-center px-4 py-4'>
+
         {navItems.map((item) => (
           <Link
             key={item.href}
@@ -28,6 +32,9 @@ export default function ResponsiveNav() {
             {item.label}
           </Link>
         ))}
+      </div>
+
+      </div>
       </nav>
 
       {/* Top nav for tablet/desktop */}

@@ -1,4 +1,5 @@
 import React from 'react'
+
 import SkillsCard from './SkillsCard'
 
 const Skills = () => {
@@ -7,13 +8,13 @@ const Skills = () => {
        <section id='skills' className="   ">
           <div id='divLineWrapper' className='px-5 max-w-fill  lg:px-[140px] '>
       
-          <div className=' mx-auto max-w-7xl border-l border-[#C2C8D6]/50 border-r pb-24'>
+          <div className=' mx-auto max-w-7xl border-l border-[#C2C8D6]/50 border-r pb-30'>
       
-          <div className="max-w-7xl mx-auto  md:pt-30">
+          <div className="max-w-7xl mx-auto  ">
             <div className="pl-2 pr-2">
               <div className="flex flex-col justify-center items-center  pr-0 md:px-10">
 
-                <p className="text-xs font-semibold uppercase text-[#C2C8D6] mt-12 md:mt-24">more on my skills </p>
+                <p className="text-xs font-semibold uppercase text-[#C2C8D6] tracking-wider mt-12 md:mt-24">more on my skills </p>
 
                 <h2 className=" text-2xl mt-2 font-bold md:text-5xl uppercase ">what i can do</h2>
                 

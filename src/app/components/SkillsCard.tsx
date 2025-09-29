@@ -18,7 +18,7 @@ const SkillsCard = ({title,description}:SkillsCardProps) => {
      
     
     <div className='flex flex-col mt-4 items-center  '>
-        <h4 className='text-base  uppercase font-bold'>{title}</h4>
+        <h4 className='text-base  uppercase font-bold '>{title}</h4>
         <p className='text-sm  mt-4 max-w-[225px] text-center text-[#4F5155]'>{description}</p>
     </div>
     </div>
