@@ -32,7 +32,7 @@ const AboutMe = () => {
                      <p className="text-md md:max-w-md">Im a devloper obsessed with combining design, development, and psychology to craft emails and websites that turn into conversions.My foundation in UX design and psychology helps me understand why people click, buy, and engage, which I bring into every website and email I build. I focus on creating experiences that are visually clear and grounded in how people think and make decisions. <br  /> <span >
                      
                       </span></p><p className='mt-8 md:max-w-md'>
-                         Outside of work, I pour my time into music, food, and photography.My favoortie genre is afrobeats, I love Chicken Parm, and the last pic I took was for my cousins Sweet 16 birthday party.
+                         Outside of work, I pour my time into music, food, and photography.My favortie genre is afrobeats, I love Chicken Parm, and the last pic I took was for my cousins Sweet 16 birthday party.
 
                       </p>
                      </div>
