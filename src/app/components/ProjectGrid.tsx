@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard';
 const ProjectGrid = () => {
   return (
     
-       <section className="   ">
+       <section id="projects" className="   ">
           <div id='divLineWrapper' className='px-5 max-w-fill  lg:px-[140px] '>
       
           <div className=' mx-auto max-w-7xl border-l border-[#C2C8D6]/50 border-r pb-24'>

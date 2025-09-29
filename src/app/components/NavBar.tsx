@@ -7,9 +7,10 @@ export default function ResponsiveNav() {
 
   const navItems = [
     { href: '/', label: 'Home' },
-    { href: '/about', label: 'About' },
-    { href: '/projects', label: 'Projects' },
-    { href: '/lab', label: 'Lab' },
+    { href: '/#skills', label: 'Skills' },
+    { href: '#projects', label: 'Projects' },
+    { href: '/#about', label: 'About' },
+    
   ];
 
   return (

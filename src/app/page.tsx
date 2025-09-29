@@ -10,7 +10,7 @@ import Skills from "./components/Skills";
 
 export default function Home() {
   return (
-    <div className="o ">
+    <div className="">
       {/* <div className="flex items-center justify-center mt-12">
         <div className="bg-white p-4 border border-[#F4F4F4] ">
            <Image className='rounded-sm' src="/images/personal-pic.png" width={100} height={125} alt="" />

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const AboutMe = () => {
   return (
-      <section className="   ">
+      <section id='about' className="   ">
           <div id='divLineWrapper' className='px-5 max-w-fill  lg:px-[140px] '>
       
           <div className=' mx-auto max-w-7xl border-l border-[#C2C8D6]/50 border-r pb-24'>

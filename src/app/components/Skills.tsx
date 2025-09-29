@@ -5,7 +5,7 @@ import SkillsCard from './SkillsCard'
 const Skills = () => {
   return (
     
-       <section className="   ">
+       <section id='skills' className="   ">
           <div id='divLineWrapper' className='px-5 max-w-fill  lg:px-[140px] '>
       
           <div className=' mx-auto max-w-7xl border-l border-[#C2C8D6]/50 border-r pb-24'>
@@ -19,7 +19,7 @@ const Skills = () => {
                 <h2 className=" text-2xl mt-2 font-bold md:text-5xl uppercase ">what i can do</h2>
                 
                 <div className="relative mt-7 md:mt-0">
-                  <div className=" mt-4 md:mt-16 grid grid-cols-1 gap-x-10 gap-y-10 md:grid md:grid-cols-2">
+                  <div className=" mt-4  grid grid-cols-1 gap-x-10 gap-y-10 md:mt-16 md:grid md:grid-cols-3">
                         <SkillsCard title={"Email Design & Development"} description={"From design to code, I create responsive, user-focused emails that engage and convert."}/>
 
                           <SkillsCard title={"content management"} description={"Customer journey mapping, automation, and campaigns to keep buyers coming back."}/>
