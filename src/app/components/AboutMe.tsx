@@ -29,7 +29,12 @@ const AboutMe = () => {
 
                      <h3 className="uppercase font-bold text-2xl md:text-3xl ">hey i’m zavier </h3>
                      <p> Call me Zav for short !</p>
-                     <p className="text-md md:max-w-md">I combine design, coding, and behavioral science to help businesses grow smarter`an Email Developer with a sharp eye for crafting responsive, pixel-perfect HTML table emails—whether built from scratch or based on a reference design. I’m skilled in tools like Figma and Photoshop, and I’m experienced across platforms including Shopify, WordPress, Google Analytics, Litmus, Klaviyo, AMPScript, and Cursor AI.Outside of development, I’m passionate about art, music, and exploring the world. Traveling, staying active, and connecting with different cultures are core to who I am, I’m always curious, always learning.</p>
+                     <p className="text-md md:max-w-md">Im a devloper obsessed with combining design, development, and psychology to craft emails and websites that turn into conversions.My foundation in UX design and psychology helps me understand why people click, buy, and engage, which I bring into every website and email I build. I focus on creating experiences that are visually clear and grounded in how people think and make decisions. <br  /> <span >
+                     
+                      </span></p><p className='mt-8 md:max-w-md'>
+                         Outside of work, I pour my time into music, food, and photography.My favoortie genre is afrobeats, I love Chicken Parm, and the last pic I took was for my cousins Sweet 16 birthday party.
+
+                      </p>
                      </div>
 
                     </div>

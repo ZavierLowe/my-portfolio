@@ -32,10 +32,10 @@ const Hero = () => {
           </div>
         </div>
 
-            <p className="text-md uppercase text-center mt-8  font-semibold lg:text-[16px]"> Hey I’m Zavier —  developer & email strategist.</p>
-            <h1 className="text-center text-2xl lg:text-5xl font-semibold text-[#772BE2] ">
+            <p className="text-md uppercase text-center mt-8  font-semibold lg:text-[16px]"> Hey I’m Zavier —  Web  & email developer.</p>
+            <h1 className="text-center text-2xl lg:text-5xl/12 font-semibold text-[#772BE2] ">
              
-             I design and code responsive emails that convert. Personalized, on-brand, and optimized for every inbox.
+             I create responsive,conversion focused emails built on UX and psychology.Every design I code is optimized to drive real results.
             </h1>
            <div className="flex justify-center mt-8">
             <div className=" relative items-center align-middle">
