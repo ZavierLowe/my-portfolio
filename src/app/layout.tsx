@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import {  Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css" ;
+import { Analytics } from "@vercel/analytics/next"
 
 
 
@@ -23,16 +24,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+   
       <body
         className={`${plusJakartaSans.className}  antialiased bg-[#FAFAFA] `}
       >
-        <div className="   "> 
+      
       
         <main className=" ">
+             <Analytics/>
           
           {children}
         </main>
-        </div>
+     
       </body>
     </html>
   );

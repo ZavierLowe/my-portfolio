@@ -38,12 +38,12 @@ export default function ResponsiveNav() {
       </nav>
 
       {/* Top nav for tablet/desktop */}
-      <nav className="hidden md:flex fixed top-0 w-full backdrop-blur-sm   bg-white/98   shadow-md  px-4  lg:px-[140px]  z-50">
-      <div className=''>
+      <nav className="hidden md:flex fixed top-0 w-full backdrop-blur-sm   bg-white/98   shadow-md  px-4 md:px-5 lg:px-[140px]  z-50">
+      <div className='  '>
+          </div>
 
-      </div>
-        <div id='wrapper' className=' w-full border-l border-[#C2C8D6]/50 border-r   '>
-        <div className='flex justify-between items-center px-4 py-4'>
+        <div id='wrapper' className=' w-full border-l border-[#C2C8D6]/50 border-r xl:mx-auto xl:max-w-7xl   '>
+        <div className='flex justify-between items-center px-4 py-4     '>
 
         <div className=' '>
           <h5 className='text-xl font-semibold'>Zavier Lowe</h5>
@@ -63,6 +63,7 @@ export default function ResponsiveNav() {
           ))}
         </ul>
         </div>
+    
         </div>
 
       </nav>
