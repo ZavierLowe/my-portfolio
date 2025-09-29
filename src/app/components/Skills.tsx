@@ -19,8 +19,8 @@ const Skills = () => {
                 <h2 className=" text-2xl mt-2 font-bold md:text-5xl uppercase ">what i can do</h2>
                 
                 <div className="relative mt-7 md:mt-0">
-                  <div className=" mt-4  grid grid-cols-1 gap-x-10 gap-y-10 md:mt-16 md:grid md:grid-cols-3">
-                        <SkillsCard imageSrc='/images/skills-card-1.png' title={"Email Design & Development"} description={"I design and code responsive emails that engage customers and drive conversions. Each template is crafted to look great across devices and inboxes."}/>
+                  <div className=" mt-4  grid grid-cols-1 gap-x-10 gap-y-10  md:mt-16 md:grid md:grid-cols-1 md:h-full md:gap-y-8 md:w-full xl:grid xl:grid-cols-3 xl:gap-x-4 ">
+                        <SkillsCard  imageSrc='/images/skills-card-1.png' title={"Email Development"} description={"I design and code responsive emails that engage customers and drive conversions. Each template is crafted to look great across devices and inboxes."}/>
 
                           <SkillsCard imageSrc='/images/skills-card-2.png' title={"content management"} description={"I manage and optimize content to keep websites clear, fresh, and effective. This ensures your brand communicates consistently and professionally."}/>
 

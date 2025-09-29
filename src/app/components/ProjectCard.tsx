@@ -14,7 +14,7 @@ const ProjectCard = ({ imgSrc, name, year, link }: ProjectCardProps) => {
 
   return (
 
-    <div className='w-full sm:w-1/2 lg:w-full'>
+    <div className='w-full sm:w-1/2 md:w-full lg:w-full'>
       <a href={link} target='_blank'>
 
          <div  className="p-4 bg-white border border-[#F4F4F4] rounded-lg shadow-md hover:shadow-lg transition cursor-pointer ">
