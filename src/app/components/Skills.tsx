@@ -20,11 +20,11 @@ const Skills = () => {
                 
                 <div className="relative mt-7 md:mt-0">
                   <div className=" mt-4  grid grid-cols-1 gap-x-10 gap-y-10 md:mt-16 md:grid md:grid-cols-3">
-                        <SkillsCard title={"Email Design & Development"} description={"From design to code, I create responsive, user-focused emails that engage and convert."}/>
+                        <SkillsCard imageSrc='/images/skills-card-1.png' title={"Email Design & Development"} description={"I design and code responsive emails that engage customers and drive conversions. Each template is crafted to look great across devices and inboxes."}/>
 
-                          <SkillsCard title={"content management"} description={"Customer journey mapping, automation, and campaigns to keep buyers coming back."}/>
+                          <SkillsCard imageSrc='/images/skills-card-2.png' title={"content management"} description={"I manage and optimize content to keep websites clear, fresh, and effective. This ensures your brand communicates consistently and professionally."}/>
 
-                            <SkillsCard title={"Shopify Development"} description={"Custom storefronts designed for usability and optimized for sales."}/>
+                            <SkillsCard imageSrc='/images/skills-card-3.png' title={"Shopify Development"} description={"I build custom Shopify stores that simplify shopping and boost sales. Every site is designed for speed, usability, and maximum conversion."}/>
 
                   </div>
                 
