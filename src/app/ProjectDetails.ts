@@ -7,21 +7,21 @@ const Projects =[
     },
     {
     id:2,
-    name:'Sorella ',
+    name:'Sorella Promotional ',
     year:2025,
     imgSrc:'/images/sorella-mockup.jpg'
     },
     {
     id:3,
-    name:'Placeholder 2',
+    name:'Macys',
     year:2025,
-    imgSrc:'/images/dxc-prodcutions-home.png'
+    imgSrc:'/images/macys-mockup.jpg'
     },
      {
     id:4,
-    name:'Place Holder 3',
-    year:2025,
-    imgSrc:'/images/dxc-prodcutions-home.png'
+    name:'DXC Prodcutions',
+    year:2024,
+    imgSrc:'/images/dxc-mockup.jpg'
     }
 
 ]

@@ -39,16 +39,16 @@ const ContactMe = () => {
                               
                             </div>
                                <div className="flex justify-center bg-white  h-[82px] p-4 border border-[#E9E9E9]/50 rounded-lg shadow-sm  md:rounded-3xl">
-                              <Image alt="linkedin-logo" src={"images/github-logo.svg" } width={36} height={36} />
+                              <Image alt="github-logo" src={"images/github-logo.svg" } width={36} height={36} />
                               
                             </div>
                                <div className="flex justify-center bg-white h-[82px] p-4 border border-[#E9E9E9]/50   rounded-lg shadow-sm  md:rounded-3xl">
-                              <Image alt="linkedin-logo" src={"images/pdf-icon.svg" } width={36} height={42} />
+                              <Image alt="pdf-logo" src={"images/pdf-icon.svg" } width={36} height={42} />
                               
                             </div>
 
                                <div className="flex justify-center bg-white h-[82px] p-4 border border-[#E9E9E9]/50   rounded-lg shadow-sm  md:rounded-3xl">
-                              <Image alt="linkedin-logo" src={"images/pdf-icon.svg" } width={36} height={42} />
+                              <Image alt="x-logo" src={"images/x-logo.svg" } width={36} height={42} />
                               
                             </div>
                          

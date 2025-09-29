@@ -21,9 +21,12 @@ export default function Home() {
       <Hero/>
 
       <div className=" border-1 border-[#C2C8D6]/50"></div>
-      <ProjectGrid/>
-      <div className=" border-1 border-[#C2C8D6]/50"></div>
       <Skills/>
+      <div className=" border-1 border-[#C2C8D6]/50"></div>
+      <ProjectGrid/>
+            <div className=" border-1 border-[#C2C8D6]/50"></div>
+
+      
 
        <AboutMe />
      <div className=" border-1 border-[#C2C8D6]/50"></div>
