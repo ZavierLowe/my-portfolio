@@ -22,7 +22,15 @@ const Projects =[
     name:'DXC Prodcutions',
     projectType:"Website",
     imgSrc:'/images/dxc-mockup.jpg'
-    }
+    },
+      {
+    id:5,
+    name:'Delphic Beauty',
+    projectType:"Shopify Store",
+    imgSrc:'/images/delphic-mockup.jpg',
+    projectDesc:'Password:delphic'
+    },
+ 
 
 ]
 

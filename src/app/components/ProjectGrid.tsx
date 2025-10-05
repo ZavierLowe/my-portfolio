@@ -24,6 +24,8 @@ const ProjectGrid = () => {
                           <ProjectCard link={"https://sorella-email.netlify.app/"}  name={Projects[1].name} imgSrc={Projects[1].imgSrc} projectType={Projects[1].projectType}/>
                            <ProjectCard link={"https://macys-transactional-email.netlify.app/"}  name={Projects[2].name} imgSrc={Projects[2].imgSrc} projectType={Projects[2].projectType}/>
                             <ProjectCard link={"https://www.thedxcproductions.com/"}  name={Projects[3].name} imgSrc={Projects[3].imgSrc} projectType={Projects[3].projectType}/>
+                              <ProjectCard link={"https://delphic-beauty.myshopify.com/"}  name={Projects[4].name} imgSrc={Projects[4].imgSrc} projectType={Projects[4].projectType}/>
+                              
 
                   </div>
                 
