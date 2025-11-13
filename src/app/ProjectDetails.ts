@@ -13,18 +13,12 @@ const Projects =[
     },
     {
     id:3,
-    name:'Macys Transactional',
-    projectType:"Email",
-    imgSrc:'/images/macys-mockup.jpg'
-    },
-     {
-    id:4,
     name:'DXC Prodcutions',
     projectType:"Website",
     imgSrc:'/images/dxc-mockup.jpg'
     },
       {
-    id:5,
+    id:4,
     name:'Delphic Beauty',
     projectType:"Shopify Store",
     imgSrc:'/images/delphic-mockup.jpg',
